@@ -82,11 +82,26 @@
    # git remote add origin <link> : Setting or adding Remote Repository.
    # git remote -v : To verify remote
    # git branch : To check branch status
-   # git push origin master : Pushing local repository on Github.
-
-# PART - 10 : 
-   # Push changes to Github -
-   # git push -u origin master.
+   # git push -u origin master : Pushing local repository on Github.
   
-# PART - 11 : Rebasing Branches
-   # Create
+# PART - 10 : Rebasing Branches
+   # Create a feature branch 1 and rebase it:
+   # git checkout -b feature-branch1
+   # echo "Rebase test" >> file2.txt
+   # git commit -am "Feature branch commit"
+
+   # git checkout master
+   # git rebase feature-branch1
+
+# PART - 11 : Resetting
+   # git reset  <file2.txt>        : staged changes
+   # git reset  HEAD~1             : Committed changes(for one commit)
+   # git reset <-commit hash->     : Commited changes(for many commits)
+   # git reset --hard <-commit hash-> 
+
+# PART - 12 : Creating an Issue and fixing It
+  # On Github.creating an issue.
+  # Create a branch locally to fix the issue:
+  # git checkout -b fix-issue
+  # git push origin fix-issue
+
