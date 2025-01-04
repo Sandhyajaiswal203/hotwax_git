@@ -26,7 +26,7 @@
   # git commit -am "Update file in branch2"   : Adding and commiting changes made in file2.txt at branch2.
   # git checkout branch1                      : Swtiching to branch1.
   # git merge branch2                         : Attempt to merge branch2 into branch1.
-  # git add file.txt                          : Resoving the conflict occurs in the file2.txt (manually) then adding it.
+  # git add file.txt                          : Resolving the conflict occurs in the file2.txt (manually) then adding it.
   # git commit 
 
 # PART - 4 : Cherry-Picking Commits
@@ -67,7 +67,7 @@
   # git merge feaute-branch
 
 # PART - 8 : Git Stash
-   # Mdofiying a file but don't commit-
+   # Modifiying a file but don't commit-
    # echo "Temporyary changes" >> file2.txt
    # git stash : Used to stash file
 
