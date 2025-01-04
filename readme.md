@@ -85,13 +85,13 @@
    # git push -u origin master : Pushing local repository on Github.
   
 # PART - 10 : Rebasing Branches
-   # Create a feature branch 1 and rebase it:
-   # git checkout -b feature-branch1
+   # Create a rebase branch 1 and rebase it:
+   # git checkout -b rebase-branch
    # echo "Rebase test" >> file2.txt
-   # git commit -am "Feature branch commit"
+   # git commit -am "rebase branch commit"
 
    # git checkout master
-   # git rebase feature-branch1
+   # git rebase rebase-branch
 
 # PART - 11 : Resetting
    # git reset  <file2.txt>        : staged changes
